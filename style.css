@@ -92,9 +92,10 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  margin-top: 30px;
+  }
 
-/* BLOCCO STEPS */
+  /* BLOCCO STEPS */
 
   #steps .row>.left,
   #steps .row>.central,
@@ -103,5 +104,25 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
+  }
+
+  #steps .row>.right, #lezioni .row>.right {
+    margin-bottom: 50px;
+  }
+
+  /* BLOCCO STEPS */
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  margin-top: 30px;
+  }
+
+  #why{
+  background-color: transparent;
+  }
+
 }
+
 }
